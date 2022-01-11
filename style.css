@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #f3db55,
+    #39a1e24f,
+    rgba(0, 0, 0, 0.281),
+    #d31919
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+  
+div {
+
+max-width: 500px;
+  height: auto;
+  background-color: antiquewhite;
+  padding: 50px;
+  box-shadow: 1px 1px 15px 3px #d31919;
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-shadow: 1px 2px 3px #0754;
+}
+
+label{
+  display: block;
+  margin-top: 25px;
+  text-transform: capitalize;
+
+}
+
+input {
+  width: 300px;
+  padding: 10px 1px;
+}
+button {
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border: none;
+  color: beige;
+  background-color: #00b894;
+}
